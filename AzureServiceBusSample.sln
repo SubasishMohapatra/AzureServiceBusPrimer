@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBusTestApp", "AzureServiceBusTestApp\AzureServiceBusTestApp.csproj", "{02A613F0-A35B-4B5C-8F41-374071401972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusSender", "AzureServiceBusSender\AzureServiceBusSender.csproj", "{30B6B089-A22A-499B-B578-8BF0E32BEA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBusSender", "AzureServiceBusSender\AzureServiceBusSender.csproj", "{30B6B089-A22A-499B-B578-8BF0E32BEA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusReceiver", "AzureServiceBusReceiver\AzureServiceBusReceiver.csproj", "{B4B5D75F-62A0-4DB0-977E-EA9F7AC61656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBusReceiver", "AzureServiceBusReceiver\AzureServiceBusReceiver.csproj", "{B4B5D75F-62A0-4DB0-977E-EA9F7AC61656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAppRegistration", "ServiceAppRegistration\ServiceAppRegistration.csproj", "{274F6C73-B83B-48B8-A789-9F82BA690195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B4B5D75F-62A0-4DB0-977E-EA9F7AC61656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B5D75F-62A0-4DB0-977E-EA9F7AC61656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4B5D75F-62A0-4DB0-977E-EA9F7AC61656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274F6C73-B83B-48B8-A789-9F82BA690195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274F6C73-B83B-48B8-A789-9F82BA690195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274F6C73-B83B-48B8-A789-9F82BA690195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274F6C73-B83B-48B8-A789-9F82BA690195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
